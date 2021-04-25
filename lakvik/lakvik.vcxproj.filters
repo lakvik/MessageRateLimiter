@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\lakvik">
+      <UniqueIdentifier>{1ad0f6f6-8231-491f-8c36-cebe0c863a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lakvik">
+      <UniqueIdentifier>{7ce06818-d841-42ad-a9ff-667e6fdf0e8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\Message.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\MessageID.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\FunctionID.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderID.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\Clock.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\Timestamp.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\ReceivedMessage.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\MockSender.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\MockSenders.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderStatistics.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\print.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderCollectionStatistics.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\FixedWindowRateLimiter.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\IRateLimiter.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderBasedThrottle.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\IControllableRateLimiter.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderBasedControllableRateLimiterControl.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\ITokenProvider.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\ISenderBasedTokenProvider.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderBasedTokenRateLimiter.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\SenderBasedTokenProvider.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lakvik\ISenderBasedRateControl.h">
+      <Filter>Header Files\lakvik</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lakvik\Message.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\ReceivedMessage.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\MockSender.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\MockSenders.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderStatistics.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\print.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderCollectionStatistics.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\FixedWindowRateLimiter.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderBasedThrottle.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderBasedControllableRateLimiterControl.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderBasedTokenRateLimiter.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lakvik\SenderBasedTokenProvider.cpp">
+      <Filter>Source Files\lakvik</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lakvik::IControllableRateLimiter" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>include\lakvik\IControllableRateLimiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::ISenderBasedRateControl" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAABAA=</HashCode>
+      <FileName>include\lakvik\ISenderBasedRateControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::ITokenProvider&lt;...Args&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>include\lakvik\ITokenProvider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderBasedControllableRateLimiterControl" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="lakvik::SenderBasedControllableRateLimiterControl::RateLimiterCreatorData">
+        <TypeIdentifier>
+          <NewMemberFileName>include\lakvik\SenderBasedControllableRateLimiterControl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAABCQACAAAAgQAAAACAAAAAABgAAAABAA=</HashCode>
+      <FileName>include\lakvik\SenderBasedControllableRateLimiterControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::ReceivedMessage" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAQAQEAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\lakvik\ReceivedMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderBasedThrottle" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAIAAACAACAAAAgAAAAACAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>include\lakvik\SenderBasedThrottle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::IRateLimiter">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>include\lakvik\IRateLimiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::Message" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAQAAAAAAAABCAAAAAAAAgAAAAAgIAAEIAA=</HashCode>
+      <FileName>include\lakvik\Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::MockSender" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAhAAAEAAA=</HashCode>
+      <FileName>include\lakvik\MockSender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::MockSenders" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAQAAsAACAAAEAAAAgAAAIACAgQAAAAAA=</HashCode>
+      <FileName>include\lakvik\MockSenders.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::FixedWindowRateLimiter" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CIAEQRAAAAAAAAAAAAAAAMQABCAIAAAAEAIgEAAABgA=</HashCode>
+      <FileName>include\lakvik\FixedWindowRateLimiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderCollectionStatistics" Collapsed="true">
+    <Position X="10" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAUAAAAAAAAAAAAAAAAAAACAAAAABAgAAACAAA=</HashCode>
+      <FileName>include\lakvik\SenderCollectionStatistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderStatistics" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAAAABAAAAgAABAAAAAIAAAAgAAQGAAA=</HashCode>
+      <FileName>include\lakvik\SenderStatistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderBasedTokenProvider">
+    <Position X="3.5" Y="4.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="lakvik::SenderBasedTokenProvider::SenderData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\lakvik\SenderBasedTokenProvider.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAAACAAAAAAyABAAAAAABEAAgAIAABAA=</HashCode>
+      <FileName>include\lakvik\SenderBasedTokenProvider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lakvik::SenderBasedTokenRateLimiter" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAAIAAAAAAAAFAAAAAAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>include\lakvik\SenderBasedTokenRateLimiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
